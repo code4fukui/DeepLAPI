@@ -11,4 +11,7 @@ export class DeepLAPI {
     const result = await this.translator.translateText(text, from, to);
     return result.text;
   }
+  async translateDetail(text, from = null, to = "ja") {
+    return await this.translator.translateText(text, from, to);
+  }
 };

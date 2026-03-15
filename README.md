@@ -1,3 +1,7 @@
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+Here is the English README.md for the DeepLAPI project:
+
 # DeepLAPI for Deno
 
 A library for interacting with the [DeepL](https://www.deepl.com/) API in Deno.

@@ -1,10 +1,8 @@
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
-
-Here is the English README.md for the DeepLAPI project:
-
 # DeepLAPI for Deno
 
 A library for interacting with the [DeepL](https://www.deepl.com/) API in Deno.
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
 ## Usage
 
@@ -30,4 +28,4 @@ console.log(await api.translate("Hello", null, "ja")); // こんにちは
 
 ## License
 
-MIT License
+MIT License — see [LICENSE](LICENSE).

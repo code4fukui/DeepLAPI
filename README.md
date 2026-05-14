@@ -1,13 +1,18 @@
 # DeepLAPI for Deno
 
-a lib for [DeepL](https://www.deepl.com/) API
+A library for interacting with the [DeepL](https://www.deepl.com/) API in Deno.
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
 ## Usage
 
-set [API_KEY](https://www.deepl.com/ja/account/summary) from DeepL on .env file
+Set the [API_KEY](https://www.deepl.com/account/summary) from DeepL in the `.env` file:
+
 ```
 DEEPL_API_KEY=******
 ```
+
+Then, use the library:
 
 ```js
 import { DeepLAPI } from "https://code4fukui.github.io/DeepLAPI/DeepLAPI.js";
@@ -17,15 +22,10 @@ console.log(await api.translate("こんにちは", null, "en-US")); // Hello. - 
 console.log(await api.translate("Hello", null, "ja")); // こんにちは
 ```
 
-## simple src for Deno
+## Requirements
 
-```js
-import * as deepl from "npm:deepl-node";
+- Deno
 
-const authKey = "****";
+## License
 
-const translator = new deepl.Translator(authKey);
-
-const result = await translator.translateText("Hello, world!", null, "ja");
-console.log(result.text);
-```
+MIT License — see [LICENSE](LICENSE).
